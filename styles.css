@@ -4,6 +4,8 @@ display: flex;
 
 .innerdiv {
 padding: 25px;
+margin: 0;
+gap: 0;
 }
 
 .container {
