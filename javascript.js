@@ -10,11 +10,13 @@ function divCreation() {
     a++
         while (i <= 16) {
         const innerDiv = document.createElement("div")
-        innerDiv.textContent = "test"
+        innerDiv.classList.add("innerdiv")
+        innerDiv.onmouseover = () => {
+            innerDiv.style.backgroundColor = "black"
+        }
         divRow.appendChild(innerDiv)
         i++
          } ;
-
 };
 };
 
